@@ -49,13 +49,13 @@
   justify-content: end;
 }
 
-.nav-item {
+.nav-items {
   height: 80px;
   border-bottom: 2px solid transparent;
 }
 
-.nav-item:hover {
-  border-bottom: 2px solid #f00946;
+.nav-items:hover {
+  border-bottom: 2px solid crimson;
 }
 
 .nav-links {
@@ -108,7 +108,7 @@
   }
 
   .nav-links:hover {
-    color: #f00946;
+    color: crimson;
     transform: scale(1.2);
     transition: all 0.3s ease;
   }

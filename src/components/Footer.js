@@ -37,7 +37,7 @@ function Footer() {
         </div>
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2>Contact Us</h2>
+            <h2>Social Site</h2>
             <Link to="/">Facebook</Link>
             <Link to="/">Instagram</Link>
             <Link to="/">Twitter</Link>
@@ -69,19 +69,29 @@ function Footer() {
 
       <ul className="icons">
         <li>
+        <Link to={{ pathname: "C:/xampp/htdocs/reservation/abc.php"}} target="_blank" className="icon-style">
           <FaFacebook />
+        </Link>
         </li>
         <li>
+        <Link to={{ pathname: "https://github.com" }} target="_blank" className="icon-style">
           <FaGithub />
+        </Link>
         </li>
         <li>
+        <Link to={{ pathname: "https://instagram.com" }} target="_blank" className="icon-style">
           <FaInstagram />
+        </Link> 
         </li>
         <li>
+        <Link to={{ pathname: "https://twitter.com" }} target="_blank" className="icon-style">
           <FaTwitter />
+        </Link>
         </li>
         <li>
+        <Link to={{ pathname: "https://linkedin.com" }} target="_blank" className="icon-style">
           <FaLinkedin />
+        </Link>
         </li>
       </ul>
     </div>
