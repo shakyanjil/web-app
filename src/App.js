@@ -15,8 +15,8 @@ function App() {
       </Switch>
       
       <Footer />
-   </Router>
-   </>
+    </Router>
+    </>
   );
 }
 
