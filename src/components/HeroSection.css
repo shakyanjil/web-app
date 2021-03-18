@@ -1,0 +1,115 @@
+/* .hero-section {
+  /* background-color: #1c2237; 
+  background-image: url("https://pixabay.com/get/g6e27c977268e38110f37085579098c3f6c80ebd6636420b432e940fc3911d83261edaa977e696b3d1e31d38dd92b2065.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  display: flex;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+.left {
+  background-color: crimson;
+  width: 50%;
+}
+.right {
+  width: 50%;
+  background: rgb(211, 211, 236);
+  background: linear-gradient(
+    90deg,
+    rgba(211, 211, 236, 1) 0%,
+    rgba(31, 252, 196, 1) 59%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+@media only screen and (max-width: 960px) {
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+  }
+} */
+
+.home__hero-section {
+  color: white;
+  padding: 160px;
+}
+.hero__hero-row {
+  align-items: center;
+}
+.row {
+  display: flex;
+  margin-right: -15px;
+  margin-bottom: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.col {
+  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 1;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.home__hero-text-wrapper {
+  max-width: 540px;
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+
+.top-line {
+  color: red;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.heading {
+  color: #e2e2e2;
+}
+
+.dark {
+  color: #1c2237;
+}
+.darkBg {
+  background-color: #1c2237;
+}
+.home__hero-subtitle {
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.home__hero-img {
+  max-width: 95%;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 10px;
+  padding-right: 0;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  display: inline-block;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home__hero-text-wrapper {
+    padding-bottom: 65px;
+  }
+  .col {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
