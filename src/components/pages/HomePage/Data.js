@@ -20,7 +20,8 @@ export const homeObjTwo = {
     buttonLabel: 'Get Started',
     imgStart: '',
     img: 'images/svg-2.svg',
-    alt: 'Credit Card'
+    alt: 'Credit Cardssss'
+
 };
 export const homeObjThree = {
     lightBg: false,
