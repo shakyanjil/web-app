@@ -13,7 +13,7 @@ function HeroSection({
   buttonLabel,
   img,
   alt,
-  imgStart,
+  imgStart
 }) {
   return (
     <>
