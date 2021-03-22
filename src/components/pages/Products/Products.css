@@ -1,0 +1,14 @@
+.productSection {
+  background-color: #1c2237;
+  width: 1300px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+.topic {
+  font-family: poppins;
+  text-align: center;
+  margin-top: 25px;
+  color: #ffffff;
+  padding: 20px;
+}
