@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "./Button";
+import { Button } from "../../Button";
 import "./Footer.css";
-import { MdFingerprint } from "react-icons/md";
 import {
   FaFacebook,
   FaGithub,
