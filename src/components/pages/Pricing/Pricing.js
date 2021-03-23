@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCrown, FaFeather, FaFire, FaStar } from "react-icons/fa";
+import { FaCrown, FaFeather, FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { Button } from "../../Button";
 import { IconContext } from "react-icons/lib";

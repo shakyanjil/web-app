@@ -31,8 +31,7 @@ function Navbar() {
           <div className="navbar-container container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
               <MdWhatshot className="navbar-icon" />
-              
-              LOGO
+              BRAND
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -59,6 +58,15 @@ function Navbar() {
                   onClick={closeMobileMenu}
                 >
                   Products
+                </Link>
+              </li>
+              <li className="nav-items">
+                <Link
+                  to="/posts"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  Posts
                 </Link>
               </li>
               <li className="nav-btn">
