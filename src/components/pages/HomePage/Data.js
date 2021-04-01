@@ -13,15 +13,14 @@ export const homeObjOne = {
 export const homeObjTwo = {
     lightBg: true,
     lightText: false,
-    lightTextDesc: true,
+    lightTextDesc: false,
     topLine: 'Exclusive Access',
     headline: 'Unlimited Transaction with zero fees',
     description: 'Get accest to our exclusive platinum card',
     buttonLabel: 'Get Started',
-    imgStart: '',
+    imgStart: 'start',
     img: 'images/svg-2.svg',
     alt: 'Credit Cardssss'
-
 };
 export const homeObjThree = {
     lightBg: false,
@@ -31,7 +30,7 @@ export const homeObjThree = {
     headline: 'Unlimited Transaction with zero fees',
     description: 'Get accest to our exclusive platinum card',
     buttonLabel: 'Get Started',
-    imgStart: '',
+    imgStart: 'start',
     img: 'images/svg-3.svg',
     alt: 'Credit Card'
 };

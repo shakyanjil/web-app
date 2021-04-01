@@ -38,6 +38,7 @@ function Products() {
     }));
     setProjects(filtered);
   }, [filter]);
+
   return (
     <>
       <center>
@@ -87,7 +88,7 @@ function Products() {
               className="images"
               src={item.image}
               alt={item.name}
-              onClick={console.log(item.name)}
+              // onClick={alert(item.name)}
             />
           ) : (
             ""
@@ -97,5 +98,4 @@ function Products() {
     </>
   );
 }
-
 export default Products;
